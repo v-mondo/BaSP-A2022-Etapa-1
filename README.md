@@ -1,5 +1,5 @@
 # BASP A2022 ETAPA 1
-In this readme we are going to explain what this project is and how was it created.
+In this readme we are going to explain what this project is about and how was it created.
 
 ## About this project :
 
