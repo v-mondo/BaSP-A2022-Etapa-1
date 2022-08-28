@@ -9,17 +9,21 @@
 <body>
         <!--mostrar logotipos / nombre de la empresa-->
         <header>
-            <h1>
-                Trackgenix
-            </h1>
-            <h2>
-                by GigaTech Software Solutions SA
-            </h2>
-        </header>
-        <!--Navegación de pagina-->
-        <nav class="meta">
+            <div>
+                <h1>
+                    Trackgenix
+                </h1>
+                <h2>
+                    by GigaTech Software Solutions SA
+                </h2>
             
-        </nav>
+                <a href="www.facebook.com/Trackgenix"><img src="Semana-01/img/Icon Facebook.jpg" alt="Facebook logo"></a>
+                <a href="www.facebook.com/Trackgenix"><img src="Semana-01/img/Icon Linkedin.jpg" alt="Linkedin logo"></a>
+                <a href="www.twitter.com/Trackgenix"><img src="Semana-01/img/Icon Twitter.jpg" alt="Twitter logo"></a>
+                <a href="www.instagram.com/Trackgenix"><img src="Semana-01/img/Icon Instagram.jpg" alt="Instagram logo"></a>
+                <a href="www.twitter.com/Trackgenix"><img src="Semana-01/img/Icon Github.jpg" alt="Github logo"></a> 
+            </div>
+        </header>
         <!-- contenido principal de la pagina-->
         <main>
             <section class="intro"> <!-- Aqui ponemos el contenido inicial del main-->
@@ -29,14 +33,27 @@
                 <h3>
                     Lorem ipsum dolor sit amet.
                 </h3>
-                <h3>
+                <p>
+                    <img src="Semana-01/img/Imagen-principal.jpg" alt="img-principal" align="right" width="346" height="343">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae, doloribus incidunt? Id, architecto? Dicta, eum exercitationem. Sed voluptates dolor alias perferendis ab. Voluptate unde saepe quaerat? Velit rerum molestiae libero.
-                </h3>
+                </p>
+                <a href="">
+                    LEARN MORE
+                </a>
             </section>
             <section class="functions"> <!-- Contenido de funciones de la pagina-->
                 <h2>
                     Functions
                 </h2>
+                <div>
+                    <h4>
+                    <h3>
+                    <img src="Semana-01/img/IconTime.jpg" alt="track hours">
+                        Track work hours
+                    </h3>
+                        Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus..
+                    </h4>
+                </div>
             </section>
             <section class="whytrack"> <!-- contenido de porque elegir la app-->
                 <h2>
@@ -54,39 +71,46 @@
                 </h2>
             </section>
         </main>
-        <!--barra lateral "desplegable"-->
-        <aside class="sidebar"> 
-            
-            <a href="">
-                Home
-            </a><br>
-            <a href="">
-                Sing up
-            </a><br>
-            <a href="">
-                Log in
-            </a><br>
-            <a href="">
-                Get in touch
-            </a>
-            <h3>
-                Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum 
-                has been the Industry's standard dummy text ever since the 1500s, when an unknown printer
-                took a galley of type and scrambled it to make a type specimen book.
-            </h3>
-            <img src="Semana-01/img/Icon Adress.jpg">
-            <h3>
-                1245 Sffeinvjrs, Bnaudasd
-            </h3>
-            <img src="Semana-01/img/Icon Email.jpg">
-            <h3>
-                asdkasfjajksjk@gmail.com
-            </h3>
-            <img src="Semana-01/img/Icon Telephone.jpg">
-            <h3>
-                2136516151
-            </h3>
-        </aside>
+        <!--navegación y barra lateral "desplegable"-->
+        <nav class="meta">
+            <aside class="sidebar"> 
+                <form action="/search" method="GET">
+                    <div>
+                        <img src="Semana-01/img/iconLupa.jpg" alt="search icon">
+                        <input type="search" placeholder="Search">
+                    </div>
+                </form>
+                <a href="/">
+                    Home
+                </a><br>
+                <a href="/singup">
+                    Sing up
+                </a><br>
+                <a href="/login">
+                    Log in
+                </a><br>
+                <a href="">
+                    Get in touch
+                </a>
+                <p>
+                    Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum 
+                    has been the Industry's standard dummy text ever since the 1500s, when an unknown printer
+                    took a galley of type and scrambled it to make a type specimen book.
+                </p>
+                <a href="">
+                    <img src="Semana-01/img/Icon Adress.jpg">
+                    1245 Sffeinvjrs, Bnaudasd
+                </a>
+                <a href="mailto:asdkasfjajksjk@gmail.com">
+                    <img src="Semana-01/img/Icon Email.jpg">
+                    asdkasfjajksjk@gmail.com
+                </a>
+                <a href="">
+                    <img src="Semana-01/img/Icon Telephone.jpg">
+                    2136516151
+                </a>
+            </aside>
+        </nav>
         <!-- informacion de marca y legal-->
         <footer>
             <section class="company"> <!-- 3 listas ordenadas de product, company y support-->
