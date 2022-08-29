@@ -17,7 +17,12 @@ In this stage we have to develop the html structure of the landing page we worke
 
 4. Slack (Messaging app for business that connects people to the information they need)
 ```
+<<<<<<< HEAD
 
+### Week 01 :
+```
+- In the first week we created the Figma structure for the Web Aplication
+=======
 ### Week 01 :
 ```
 - In the first week we created the Figma structure for the Web Aplication
