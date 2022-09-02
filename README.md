@@ -3,11 +3,10 @@ In this readme we are going to explain what this project is about and how was it
 
 ## About this project :
 
-This project was asigned by Radium Rocket's staff, they teach us the bootcamp that company provides, which provides information an knowledge about IT development technologies.
+This project was asigned by Radium Rocket's staff, they teach us the bootcamp that this company provides, which includes information an knowledge about IT development technologies.
 
-In this stage we have to develop the html structure of the landing page we worked last week.
 
-## Tools used :
+## Tools used for this project :
 ```
 1. Visual Studio Code (Text editor)
 
@@ -17,18 +16,22 @@ In this stage we have to develop the html structure of the landing page we worke
 
 4. Slack (Messaging app for business that connects people to the information they need)
 ```
-<<<<<<< HEAD
 
 ### Week 01 :
+
 ```
-- In the first week we created the Figma structure for the Web Aplication
-=======
-### Week 01 :
-```
-- In the first week we created the Figma structure for the Web Aplication
+  In the first week we created the Figma structure for the Web Aplication
 ```
 ### Week 02 :
+
 ```
-- The objective of the week is to create the html structure of the previous Web we created on figma
+  Objective: Create the html structure of the previous Web we created on figma
+```
+### Week 03 :
+
+```
+  Objective: Create the css file to continue the development the Web Application
 ```
 
+### Author
+- Victor Mondo

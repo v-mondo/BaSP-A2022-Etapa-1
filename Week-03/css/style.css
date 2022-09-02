@@ -1,0 +1,91 @@
+
+body{
+    width: 71.89%;
+    height: 4054px;
+    font-style: roboto;
+    margin: 0 auto;
+    padding: 1em;
+    background-color:#373867;
+    color:#FFFFFF;
+    width: 1512px;
+}
+h1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: red;
+}
+section.whyTrack{
+    color: #FFFFFF;
+}
+
+section.whyTrack div{
+    height: 168px;
+    width: 214.30960083007812px;
+    left: 1179.6884765625px;
+    top: 1689px;
+    border-radius: 17px;
+    background-color: #FFFFFF;
+    color: #373867;
+}
+header{
+    position: relative;
+    width: 1087px;
+    height: 159px;
+    right: 450px;
+    top: 0px;
+    line-break: auto 4px #49A37B;
+}
+aside{
+    position: absolute;
+    width: 425px;
+    height: 3895px;
+    left: 0px;
+    top: 0px;
+    background-color: #262862;
+    
+}
+main{
+    position: relative;
+    width: 1087px;
+    height: 3599px;
+    right: 118px;
+    left: 450px;
+    top: 159px;
+}
+
+aside form{
+    box-sizing: border-box;
+}
+section.functions div{
+    display: inline-block;
+    margin-left: 40px;
+    margin-bottom: 118px;
+    width: 35%;
+}
+section.functions img{
+    float: left;
+}
+section.whyTrack div{
+    display: inline-block;
+    margin: 12px;
+    width: 20%;
+}
+section.resources div{
+    display: inline-block;
+    width: 20%
+}
+footer{
+    position: relative;
+    width: 1087px;
+    height: 296px;
+    right: 450px;
+    bottom: 0px;
+}
+#footerIcons{
+
+    filter: invert(99%) sepia(100%) saturate(17%) hue-rotate(240deg) brightness(105%) contrast(100%);
+    color: #FFFFFF;
+}
