@@ -1,17 +1,14 @@
-
 body{
-    font-family: 'Roboto', sans-serif;
-    height: 100%;
+    font-family: 'Roboto';
+    height: 100vh;
     background-color:#373867;
     color:#FFFFFF;
 }
 header{
-    position: relative;
+    float: right;
     width: 70%;
-    margin-top: 75px;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 14px;
+    margin-top: 0px;
+    background-color:#373867;
     border-bottom: 4px solid #49a37b;
 }
 header h1 {
@@ -20,77 +17,129 @@ header h1 {
     font-weight: 700;
     font-size: 40px;
     line-height: 47px;
-    margin-right: 40px;
-    margin-top: 84px;
+    margin-top: 70px;
+    margin-right: 60px;
 }
 header h2 {
+    color:#FFFFFF;
     display: inline;
-    width: 30%;
-    margin-bottom: 20px;
-    padding: 5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
 }
 main {
-    position: relative;
     float: right;
     width: 70%;
     height: 100%;
+    background-color: #373867;
+    color: #FFFFFF;
 }
 aside{
-    position: absolute;
-    width: 425px;
-    height: 3895px;
-    left: 0px;
-    top: 0px;
-    background-color: #262862;  
+    float: left;
+    width: 30%;
+    height: 100%;
+    background-color: #262862;;  
 }
-aside form{
+aside form input{
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    width: 348px;
+    height: 60px;
+    left: 44px;
+    top: 64px;
+    background: #262862;
+    border: 1px solid #49A37B;
+    border-radius: 5px;
 }
-h1{
-    font-style: normal;
+aside address{
+    border-top: 1px solid #49a37b;
+}
+aside form img{
+}
+aside ul li{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 10px;
+    width: 354px;
+    height: 105px;
+    left: 44px;
+    top: 64px;
     font-weight: 700;
-    font-size: 40px;
-    line-height: 47px;
-    color: red;
+    font-size: 15px;
+    line-height: 18px;
+    border-bottom: 1px solid #49a37b;
+}
+section.section1{
+    border-bottom: 4px solid #49a37b;
 }
 section.whyTrack{
     color: #FFFFFF;
+    border-bottom: 4px solid #49a37b;
 }
 section.whyTrack div{
-    height: 168px;
-    width: 214.30960083007812px;
-    left: 1179.6884765625px;
-    top: 1689px;
+    display: inline-block;
+    margin: 12px;
+    width: 20%;
     border-radius: 17px;
     background-color: #FFFFFF;
     color: #373867;
+}
+section.functions{
+    border-bottom: 4px solid #49a37b;
 }
 section.functions div{
     display: inline-block;
     margin-left: 40px;
     margin-bottom: 118px;
     width: 35%;
-    border-bottom: 4px solid #49a37b;
 }
 section.functions img{
     float: left;
 }
 section.whyTrack div{
+    
+}
+section.contactus{
+    border-bottom: 4px solid #49A37B;
+}
+section.contactus h2{
+    border-bottom: 4px solid #49A37B;
+    color:white;
+}
+section.contactus input{
     display: inline-block;
-    margin: 12px;
-    width: 20%;
+    width: 50%;
+}
+section.contacus label{
+    margin-top: 30px;
+}
+section.contactus textarea{
+    width: 80%;
+    margin-left: 2%;
+}
+section.contacus select{
+    width: 100%;
 }
 section.resources div{
     display: inline-block;
     width: 20%
 }
 footer{
-    position: relative;
-    width: 1087px;
-    height: 296px;
-    right: 450px;
-    bottom: 0px;
-    border-bottom: 4px solid #49a37b;
+    display: block;
+    justify-content:end;
+    float: right;
+    width: 70%;
+    height: 100%;
+    color:#FFFFFF;
+    border-top: 4px solid #49a37b;
 }
 #footerIcons{
     filter: invert(99%) sepia(100%) saturate(17%) hue-rotate(240deg) brightness(105%) contrast(100%);
