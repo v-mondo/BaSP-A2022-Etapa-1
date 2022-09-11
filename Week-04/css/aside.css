@@ -1,0 +1,11 @@
+aside{
+    position: absolute;
+    width: 425px;
+    height: 3895px;
+    left: 0px;
+    top: 0px;
+    background-color: #262862;  
+}
+aside form{
+    box-sizing: border-box;
+}
