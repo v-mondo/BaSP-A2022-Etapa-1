@@ -1,0 +1,17 @@
+#footerIcons{
+    filter: invert(99%) sepia(100%) saturate(17%) hue-rotate(240deg) brightness(105%) contrast(100%);
+    color: #FFFFFF;
+}
+footer img{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+footer p{
+    width: fit-content;
+    margin-left: auto;
+    margin-top: 30px;
+    margin-right: auto;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+}

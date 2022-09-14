@@ -32,7 +32,7 @@ This project was asigned by Radium Rocket's staff, they teach us the bootcamp th
 ```
   Objective: Create the css file to continue the development the Web Application
 ```
-### Week 04 :
+### Week 04 : https://v-mondo.github.io/BaSP-A2022-Etapa-1/Week-04/
 
 ```
   Objective: Start using flex box in css and create css files for each structure in the html
