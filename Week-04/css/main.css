@@ -1,12 +1,13 @@
-main {
+/* main {
     float: right;
     width: 70%;
     height: 100%;
     background-color: #373867;
     color: #FFFFFF;
-}
+} */
 .time-tracker{
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     width: 86%;
     padding-top: 40px;
     margin-left: 5%;
@@ -14,45 +15,51 @@ main {
     padding-bottom: 50px;
     border-bottom: 4px solid #49a37b;
 }
+.time-tracker img{
+    min-width: 325px;
+    max-width: 325px;
+    min-height: 279px;
+    margin-bottom: 30px;
+}
 .time-tracker h2{
+    width: fit-content;
+    padding-bottom: 5px;
+    margin-bottom: 4vh;
+    border-bottom: 4px solid #49a37b;
     font-weight: 700;
-    font-size: 30px;
-    line-height: 60px;
+    font-size: 1.6rem;
+    line-height: 35px;
+    margin-bottom: 0.8em;
+    font-size: 1.7rem;
+    font-weight: 700;
+    
 }
 .time-tracker h3{
     font-weight: 400;
-    font-size: 20px;
+    font-size: 1.2rem;
     line-height: 60px;
+    margin-bottom: 0.7em;
 }
 .time-tracker p {
-    width: 45%;
-    min-width: 350px;
-    margin-bottom: 30px;
+    font-size: 1rem;
+    line-height: 1rem;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 23px;
-    text-align: justify;
-}
-.time-tracker img {
-    float: right;
-    width: 44.59%;
-    min-width: 350px;
-    margin-left: 40px;
-    padding-left: 40px;
+    padding-bottom: 2.5em;
+    line-height: 1.3rem;
 }
 .time-tracker a {
-    width: 156px;
-    height: 46px;
-    padding: 14px 36px;
+    width: 7rem;
+    padding: 0.8rem 1.6rem;
     background-color: #49a37b;
     border-radius: 5px;
     font-weight: 700;
-    font-size: 15px;
+    font-size: 0.8rem;
     line-height: 18px;
     text-align: center;
     text-transform: uppercase;
     text-decoration: none;
     color: white;
+    transition: background-color 0.3s ease;
 }
 .functions{
     width: 86%;
@@ -240,34 +247,31 @@ main {
     margin-top: 30px;
 }
 .resources{
-    display: inline-block;
-    position: relative;
-    width: 86%;
-    padding-top: 40px;
-    margin-left: 5%;
-    margin-right: 5%;
-    padding-bottom: 70px;
-    border-bottom: 4px solid #49a37b;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 .resources h2{
     margin-left: -10px;
     margin-bottom: 10px;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 23px;
+    font-size: 1rem;
 }
-.resources.links{
-    display: inline-block;
-    width: fit-content;
-    margin: 0 auto;
-    margin-left: 30px;
-    margin-right: 30px;
+.resources .links{
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+.resources .links{
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 0.7rem;
+    line-height: 1rem;
+    transition: color 0.2s linear 0.1s;
 }
 .resources li{
     list-style: decimal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 14px;
+    font-size: 0.7rem;
 }
 footer{
     padding-top: 40px;

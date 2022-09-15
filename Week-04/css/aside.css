@@ -1,5 +1,5 @@
 aside{
-    display: none;
+    /* display: none; */
 }
 
 @media (min-width: 1024px) {
@@ -127,5 +127,14 @@ aside{
     }
     aside address a img {
         margin-right: 20px;
+    }
+    .icon-adress .icon-email .icon-phone{
+        width: 21px;
+        height: 21px;
+    }
+    address a {
+        text-decoration: none;
+        color: white;
+        transition: color 0.2s linear 0.1s;
     }
 }
